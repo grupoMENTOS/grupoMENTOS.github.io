@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moto Suzuki</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <section class="main">
+        <header>
+            <a href="#"><img src="/FOTOS/logo.png" class="logo"></a>
+            <ul class="navigation">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Endereço</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <h2>Pronto para <span>Correr?</span></h2>
+            <a href="#" class="btn">Iniciar</a>
+            <img src="/FOTOS/bike.png" class="bike">
+        </div>
+    </section>
+    <section class="sobre">
+        <div>
+            <h1>Por quê você deveria adquirir?</h1>
+            <p>
+                Após um grande período de quarentena, as pessoas se encontram em situações psicológicas alteradas, e até
+                mesmo em estado grave. Portanto, uma motocicleta é o remédio perfeito para relaxar a mente.
+                Mas é claro, segurança em primeiro lugar!
+            </p>
+        </div>
+    </section>
+    <section class="contato">
+        <div>
+            <h1>Entre em contato agora</h1>
+            <p><strong>E-mail: </strong>colegiomodulo@email.com</p>
+            <p><strong>Tel: </strong>98170-0024</p>
+        </div>
+    </section>
+    <section class="endereco">
+        <img src="/FOTOS/mapa.png" alt="mapa colegio">
+        <div>
+            <h1>Endereço</h1>
+            <p><strong>Rua </strong>Tito, 1175</p>
+            <p><strong>Bairro </strong>Lapa</p>
+        </div>
+    </section>
+    <footer>
+        <p>Todos os direitos reservados aos membros do grupo <strong>MENTOS</strong></p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
