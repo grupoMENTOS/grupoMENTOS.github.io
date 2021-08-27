@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+:root
+{
+ --black: #2f2f2f;
+ --white: #fff;
+ --red: #f83038;
+}
+.main
+{
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(#1c1c1c,#323232);
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.main::before
+{
+    content: 'AVENTURA';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 16vw;
+    font-weight: 700;
+    color: rgba(255,255,255,0.05); 
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo
+{
+    max-width: 80px;
+}
+.navigation
+{
+    display: flex;
+}
+.navigation li
+{
+    list-style: none;
+}
+.navigation li a
+{
+    position: relative;
+    color: var(--white);
+    margin-left: 40px;
+    text-decoration:none;
+    transition: 0.25s;
+}
+.navigation li a:hover
+{
+    color: var(--red);
+}
+.content
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    z-index: 1;
+}
+.content h2
+{
+    font-size: 5em;
+    font-weight: 300;
+    color: var(--white);
+    text-align: center;
+
+}
+.content h2 span
+{
+    font-weight: 700; 
+}
+.btn
+{
+    background: var(--red);
+    color: var(--white);
+    text-decoration: none;
+    padding: 16px 36px;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    border-radius: 50px;
+    font-size: 1.25em;
+    transition: 0.25s;
+    text-align: center;
+    max-width: 180px;
+    
+
+}
+.btn:hover
+{
+    letter-spacing: normal; 
+}
+.bike
+{
+ max-width: 80%;
+}
+.sobre
+{
+    padding: 50px 100px;
+    background: black;
+    min-height: 30vh;
+    width: 100%;
+}
+.sobre div
+{
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+}
+.sobre h1
+{
+    font-size: 38px;
+    color: white;
+    margin-bottom: 30px;
+}
+.sobre p
+{
+    font-size: 25px;
+    color: white;
+}
+.contato
+{
+    min-height: 30vh;
+    background: #1C1C1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contato h1
+{
+    font-size: 38px;
+    color: var(--white);
+    margin-bottom: 30px;
+}
+.contato p 
+{
+    color: #dedede;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.endereco
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background: #585858;
+}
+.endereco div 
+{
+    margin-left: 50px;
+}
+.endereco h1
+{
+    font-size: 38px;
+    color: var(--white);
+    margin-bottom: 30px;
+}
+.endereco p
+{
+    color: #dedede;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+footer
+{
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 18px;
+}
